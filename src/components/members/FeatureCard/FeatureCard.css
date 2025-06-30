@@ -1,0 +1,25 @@
+.feature-card {
+  display: flex;
+  justify-content: space-between;
+  /* gap: 8rem; */
+  padding: 60px 78px 0 67px;
+  border-radius: 20px;
+}
+
+.feature-text {
+  width: 70%;
+  margin-top: 26px;
+  padding: 1rem;
+}
+
+.feature-image img {
+  height: 100%;
+}
+
+.feature-list {
+  padding: 0 20px;
+}
+
+.feature-list li {
+  margin: 15px 0;
+}

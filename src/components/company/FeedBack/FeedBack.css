@@ -1,0 +1,28 @@
+#feedback-section .wrapper {
+  background-color: rgba(214, 169, 121, 0.15);
+  border-radius: 16px;
+}
+#feedback-section h2 {
+  color: var(--brand-header);
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 60px;
+}
+
+#feedback-section .left {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 4rem;
+}
+
+#feedback-section .right {
+  width: 30%;
+  display: flex;
+}
+
+#feedback-section img {
+  margin-left: auto;
+  border-bottom-right-radius: 16px;
+}

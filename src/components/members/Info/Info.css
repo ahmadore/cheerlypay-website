@@ -1,0 +1,32 @@
+#member-info {
+  min-height: 100vh;
+  height: 100vh;
+}
+
+#member-info .wrapper {
+  height: 100%;
+}
+
+#member-info .column-container {
+  height: 100%;
+  justify-content: space-between;
+}
+
+#member-info .info-header p {
+  width: 55%;
+  margin: 0;
+}
+
+#member-info h3 {
+  margin: 0;
+}
+
+#member-info h2 {
+  margin-bottom: 30px;
+}
+
+.member-info-cards {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+}

@@ -1,0 +1,9 @@
+.quote {
+  color: rgba(111, 109, 109, 1);
+  font-size: 56px;
+  text-align: center;
+}
+
+.quote b {
+  color: rgb(39, 39, 39);
+}

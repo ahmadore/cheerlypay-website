@@ -1,0 +1,24 @@
+#bringit-section button.demo {
+  padding: 16px 24px;
+}
+
+#bringit-section .left {
+  display: flex;
+  flex-direction: column;
+  padding: 10% 0;
+}
+
+#bringit-section h2 {
+  font-size: 56px;
+}
+
+#bringit-section ul {
+  padding: 0;
+  color: var(--text-body);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+}
+#bringit-section li {
+  margin: 30px 20px;
+}

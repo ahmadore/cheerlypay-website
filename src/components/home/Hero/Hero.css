@@ -1,0 +1,30 @@
+#hero-section {
+  background-color: rgba(78, 70, 180, 0.1);
+}
+
+#hero-section .row-container {
+  height: 100vh;
+  gap: 6%;
+}
+
+#hero-section p {
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  font-weight: 500;
+  letter-spacing: 0%;
+}
+
+#hero-section .right img {
+  height: 100%;
+}
+
+#hero-section button.demo {
+  position: relative;
+  padding: 1rem 4.25rem;
+}
+
+.demo-cta {
+  padding: 0.2rem;
+  position: absolute;
+  left: 11.25rem;
+}

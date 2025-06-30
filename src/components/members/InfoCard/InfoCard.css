@@ -1,0 +1,21 @@
+.member-info-card {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  padding: 24px;
+  background-color: rgba(214, 169, 121, 0.06);
+  border: 1px solid rgba(234, 236, 240, 1);
+  border-radius: 7px;
+}
+
+.member-info-card img {
+  width: 52px;
+  height: 52px;
+}
+
+.member-info-card h4 {
+  margin: 24px 0;
+}
+.member-info-card p {
+  margin: 0;
+}

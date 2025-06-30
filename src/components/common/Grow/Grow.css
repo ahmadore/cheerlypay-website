@@ -1,0 +1,23 @@
+#grow-section .content-container {
+  background-color: #ffd98d38;
+  padding-top: 60px;
+  padding-left: 60px;
+  height: 544px;
+  border-radius: 16px;
+}
+
+#grow-section .right {
+  position: relative;
+}
+
+#grow-section .left {
+  padding-right: 12rem;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.right .image-bg {
+  height: 100%;
+  border-bottom-right-radius: 16px;
+}

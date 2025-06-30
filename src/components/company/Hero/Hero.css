@@ -1,0 +1,42 @@
+#company-hero-section {
+  background-color: rgba(255, 150, 163, 0.3);
+}
+
+#company-hero-section .column-container {
+  align-items: center;
+  text-align: center;
+  gap: 69px;
+}
+
+#company-hero-section .wrapper {
+  padding-bottom: 0;
+}
+
+#company-hero-section .bottom img {
+  height: 100%;
+}
+
+#company-hero-section .top {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 55%;
+}
+
+#company-hero-section .top h2 {
+  font-weight: 900;
+  color: var(--brand-header);
+  margin: 0;
+}
+
+#company-hero-section .top h4,
+#company-hero-section .top p {
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--text-bg);
+  line-height: 30px;
+  letter-spacing: 0;
+}
+.cta button {
+  padding: 10px 15px;
+}

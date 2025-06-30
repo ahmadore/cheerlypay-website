@@ -1,0 +1,55 @@
+.info-card {
+  display: flex;
+  /* width: 100%; */
+  height: 395px;
+  flex-shrink: 0;
+  background: #eef0ff;
+  margin-bottom: 161px;
+  border-radius: 21px;
+}
+
+.info-card p {
+  margin-bottom: 32px;
+}
+
+.info-card .left {
+  padding: 5.625rem;
+  padding-right: 0;
+  width: 50%;
+  min-width: 50%;
+}
+
+.info-card .right {
+  width: 50%;
+}
+
+.info-card .card-image {
+  padding: 85px 58px;
+  padding-bottom: 0;
+  padding-left: 20px;
+}
+
+.info-card:last-child {
+  margin-bottom: 0;
+}
+
+.card-image img {
+  height: 100%;
+  width: 100%;
+}
+
+.giving-bg {
+  background-color: rgba(238, 240, 255, 1);
+}
+
+.church-app-bg {
+  background-color: rgba(191, 255, 236, 1);
+}
+
+.insights-bg {
+  background-color: rgba(234, 236, 240, 1);
+}
+
+.church-management-bg {
+  background-color: rgba(255, 217, 141, 0.4);
+}

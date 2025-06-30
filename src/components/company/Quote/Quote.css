@@ -1,0 +1,16 @@
+#quote-section .row-container {
+  background: url("@images/company/quote-bg.png") no-repeat center center;
+  background-size: cover;
+  border-radius: 16px;
+  gap: 12rem;
+}
+
+#quote-section p {
+  width: 38%;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 46px;
+  letter-spacing: 0;
+  align-self: center;
+  text-align: right;
+}

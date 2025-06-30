@@ -1,0 +1,5 @@
+#testimonial-section .content-container {
+  flex-direction: column;
+  gap: 51px;
+  justify-content: space-between;
+}

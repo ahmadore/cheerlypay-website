@@ -1,0 +1,19 @@
+button.btn {
+  border: 1px solid;
+  cursor: pointer;
+  padding: 8px 24px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+button.login-btn {
+  border-color: rgba(141, 157, 168, 1);
+  background-color: white;
+}
+
+button.demo {
+  border: none;
+  color: white;
+  background-color: var(--brand-primary);
+}

@@ -1,0 +1,61 @@
+.invite-form {
+  box-sizing: border-box;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+}
+
+.invite-form h2 {
+  color: var(--brand-header);
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.invite-form p {
+  font-size: 0.95rem;
+  margin-bottom: 1.5rem;
+  color: #555;
+}
+
+.invite-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.invite-form .row {
+  display: flex;
+  gap: 1rem;
+}
+
+.invite-form input,
+.invite-form select {
+  flex: 1;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  font-size: 0.95rem;
+}
+
+.invite-form button {
+  background-color: #b6aaff;
+  color: #fff;
+  border: none;
+  padding: 0.75rem;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.invite-form .disclaimer {
+  font-size: 0.8rem;
+  color: #666;
+  line-height: 1.4;
+}
+
+.invite-form .disclaimer a {
+  color: #4b62e2;
+  text-decoration: underline;
+}

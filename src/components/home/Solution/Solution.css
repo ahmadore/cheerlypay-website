@@ -1,0 +1,43 @@
+#solution-section .column-container {
+  gap: 7rem;
+}
+#solution-section .top {
+  overflow: hidden;
+}
+
+#solution-section .solutions {
+  width: 120%;
+  margin-right: -20%;
+}
+
+#solution-section .solution {
+  line-height: 30px;
+  font-weight: 700;
+  display: inline-block;
+  margin: 12px 2.2rem;
+  margin-left: 0;
+  padding: 1em 2em;
+  border-radius: 40px;
+  background: var(--Stoke-icons, #eaecf0);
+}
+
+.solution span {
+  color: var(--brand-header);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: -0.2px;
+}
+
+#solution-section .section-header {
+  gap: 32px;
+}
+
+#solution-section .section-header p {
+  width: 80%;
+  text-align: center;
+}
+
+#solution-section button.demo {
+  padding: 1rem 1.5rem;
+}

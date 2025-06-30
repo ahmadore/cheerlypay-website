@@ -1,0 +1,24 @@
+#member-hero {
+  background: url("@images/members/hero-vector.svg"), rgba(214, 169, 121, 0.26);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 70% 100%;
+}
+
+#member-hero .row-container {
+  gap: 14rem;
+}
+
+#member-hero .left {
+  width: 50%;
+  padding: 30px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+
+#member-hero .left h2,
+#member-hero .left p {
+  width: 73%;
+  margin: 0;
+}

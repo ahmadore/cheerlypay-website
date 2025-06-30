@@ -1,0 +1,58 @@
+.modal {
+  position: fixed;
+  top: 4.313rem;
+  left: 0%;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1000;
+  opacity: 1;
+  padding: 4rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.03);
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  box-shadow: 0 0 1 rgba(0, 0, 0, 0.03);
+}
+
+.modal-left {
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal p {
+  width: 60%;
+}
+
+.modal ul,
+.modal h3 {
+  margin-top: 0;
+}
+
+.modal ul {
+  list-style: none;
+  padding: 0;
+}
+
+.modal li a {
+  margin-bottom: 1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--brand-header);
+}
+
+.modal li div {
+  width: 51px;
+  height: 44px;
+  background-color: rgba(247, 247, 247, 1);
+  border-radius: 8px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

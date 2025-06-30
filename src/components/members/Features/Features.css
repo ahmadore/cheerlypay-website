@@ -1,0 +1,26 @@
+#features-section .column-container {
+  gap: 7rem;
+}
+
+.features-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+}
+
+.features-header h2 {
+  margin: 0;
+}
+.features-header p {
+  width: 45%;
+  margin: 0;
+}
+
+.feature-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 11rem;
+}

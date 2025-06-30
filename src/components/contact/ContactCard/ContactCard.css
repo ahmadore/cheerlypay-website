@@ -1,0 +1,27 @@
+.contact-card {
+  background-color: rgba(214, 169, 121, 0.06);
+  width: 50%;
+  border-radius: 7px;
+  border: 1px solid rgba(234, 236, 240, 1);
+  padding: 24px;
+  text-align: left;
+}
+
+.contact-card img {
+  width: 52px;
+  height: 52px;
+}
+
+.contact-card h3 {
+  color: var(--text-bg);
+  font-size: 35px;
+  font-weight: 900;
+  margin: 1.5rem 0;
+}
+
+.contact-card h4 {
+  color: var(--brand-header);
+  font-size: 36px;
+  font-weight: 500;
+  margin: 0;
+}
